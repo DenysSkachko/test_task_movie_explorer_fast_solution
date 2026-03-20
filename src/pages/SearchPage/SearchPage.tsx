@@ -3,7 +3,7 @@ import MovieCard from "../../ui/MovieCard";
 import Pagination from "../../ui/Pagination";
 import { paginateAndFilter } from "../../utils/paginateAndFilter";
 
-const API_KEY = "66526d5b220f8dabd4147e932c37bec3";
+const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 const PAGE_SIZE = 10;
 const MAX_ITEMS = 1000;
 
